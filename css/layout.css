@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* layout css */
+
+.main-bgcolor {
+	background:#fbfcfd;
+}
+.main-wrapper {
+	background:url(../images/bg-r.png) repeat-x;
+}
+.main-content {
+	height:auto !important;
+	min-height:908px;
+}
+.container {
+	width:980px;
+	margin:0px auto;
+}
+.header-wrapper {
+	background:#7c889f;
+	height:221px;
+}
+.image-slider {
+	background:green;
+	height:309px;
+}
+.slider-detail {
+	background:white;
+}
+.slider-content {
+	margin:0px 27px;
+	background:url(../images/slider-details-btm-r.png) repeat-x;
+	height:65px;
+}
+.main-container {
+	background:white;
+	padding:0px 27px;
+}
+.news-feeds {
+	background:none;
+	min-height:272px;
+	height:auto !important;
+	width:653px;
+	float:left;
+}
+.connection {
+	background:green;
+	min-height:272px;
+	height:auto !important;
+	width:273px;
+	float:left;
+}
+.footer-main {
+	background:white url(../images/footer-top-r.png) repeat-x;
+	height:41px;
+}
