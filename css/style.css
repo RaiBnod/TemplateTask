@@ -2,6 +2,97 @@
 /* style css */
 
 .header-wrapper img {
-	margin:24px 27px;
-	float:left;
+	margin: 24px 27px;
+	float: left;
+}
+.de-wrapper ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	right: 0px;
+	list-style: none;
+}
+.de-wrapper ul li {
+	background: #9da6b7;
+	color: white;
+	line-height: 17px;
+	width: 15px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	margin-left: 2px;
+}
+.image-slider ul li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.image-slider ul li img {
+	margin: 0px;
+	padding: 0px;
+}
+.slider-content h1 {
+	font-size: 18px;
+	padding-top: 5px;
+	line-height: 30px;
+}
+.slider-content h2 {
+	font-size: 16px;
+	line-height: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-weight: 100;
+}
+.slider-content-right a {
+	text-decoration: none;
+	color: black;
+}
+.news-feeds h1 {
+	font-size: 18px;
+	text-align: left;
+	font-style: italic;
+	line-height: 50px;
+}
+.news-feeds ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.news-feeds ul li {
+	margin-top: 20px;
+	padding-left: 18px;
+	background: url(../images/arrow-right.png) no-repeat 0px 5px;
+}
+.news-feeds ul li a {
+	text-decoration: none;
+	color: black;
+}
+.news-feeds ul li ul {
+	font-style: italic;
+}
+.news-feeds ul li ul li {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+}
+.connection h1 {
+	font-size: 18px;
+	text-align: right;
+	line-height: 50px;
+}
+.connection ul {
+	position: absolute;
+	list-style: none;
+	clear: both;
+}
+.connection ul li {
+	margin-top: 20px;
+	top: 0px;
+	right: 50px;
+	float: right;
+}
+.connection ul li a {
+	text-decoration: none;
+	color: black;
 }

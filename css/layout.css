@@ -1,55 +1,89 @@
 @charset "utf-8";
 /* layout css */
-
+body {
+	font-size: 16px;
+	font-family: Arial, Verdana;
+	color-black;
+}
 .main-bgcolor {
-	background:#fbfcfd;
+	background: #fbfcfd;
 }
 .main-wrapper {
-	background:url(../images/bg-r.png) repeat-x;
+	background: url(../images/bg-r.png) repeat-x;
 }
 .main-content {
-	height:auto !important;
-	min-height:908px;
+	height: auto !important;
+	min-height: 908px;
 }
 .container {
-	width:980px;
-	margin:0px auto;
+	width: 980px;
+	margin: 0px auto;
 }
 .header-wrapper {
-	background:#7c889f;
-	height:221px;
+	background: #7c889f;
+	height: 221px;
+}
+.menu-wrapper {
+	width: 449px;
+	height: 197px;
+	float: right;
+}
+.de-wrapper {
+	padding: 0px;
+	margin: 0px;
+	width: 449px;
+	height: 21px;
+	float: left;
 }
 .image-slider {
-	background:green;
-	height:309px;
+	background: green;
+	height: 309px;
 }
 .slider-detail {
-	background:white;
+	background: white;
 }
 .slider-content {
-	margin:0px 27px;
-	background:url(../images/slider-details-btm-r.png) repeat-x;
-	height:65px;
+	margin: 0px 27px;
+	background: url(../images/slider-details-btm-r.png) repeat-x;
+	height: 65px;
+}
+.slider-content-left {
+	float: left;
+	width: 700px;
+	margin: 0px;
+	padding: 0px;
+}
+.slider-content-right {
+	float: left;
+	width: 226px;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	line-height: 40px;
 }
 .main-container {
-	background:white;
-	padding:0px 27px;
+	background: white;
+	padding: 0px 27px;
 }
 .news-feeds {
-	background:none;
-	min-height:272px;
-	height:auto !important;
-	width:653px;
-	float:left;
+	background: none;
+	min-height: 257px;
+	height: auto !important;
+	width: 653px;
+	padding-bottom: 15px;
+	float: left;
 }
 .connection {
-	background:green;
-	min-height:272px;
-	height:auto !important;
-	width:273px;
-	float:left;
+	min-height: 272px;
+	height: auto !important;
+	width: 140px;
+	position: relative;
+	float: right;
 }
 .footer-main {
-	background:white url(../images/footer-top-r.png) repeat-x;
-	height:41px;
+	font-family: Verdana, Arial;
+	background: white url(../images/footer-top-r.png) repeat-x;
+	line-height: 41px;
+	padding: 0px 27px;
+	letter-spacing: 1px;
 }

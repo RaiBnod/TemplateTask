@@ -2,9 +2,131 @@
 /* menu css */
 
 .menu {
-	background:black;
-	width:394px;
-	height:170px;
-	margin: 24px 25px 27px 24px;
+	margin: 18px 25px 0px 24px;
+	float:left;
+}
+.menu ul {
+	list-style:none;
+	margin:0px;
+	z-index:5;
+}
+.menu ul li {
+	font-size:20px;
+	float:left;
+	position:relative;
+	margin:6px 0px 0px 6px;
+}
+.menu ul li a {
+	color:white;
+	padding:34px 7px 0px 9px;
+	text-decoration:none;
+	display:block;
+}
+.small-menu {
+	width:78px; /*94*/
+	height:48px; /*82px*/
+}
+.large-menu {
+	width:178px; /*194*/
+	height:48px; /*82px*/
+}
+.color-red {
+	background:#bd103b;
+}
+.color-purple {
+	background:#511c74;
+}
+.color-yellow {
+	background:#ffb900;
+}
+.color-light-yellow {
+	background:#7fba00;
+}
+.color-cyan {
+	background:#9da6b7;
+}
+.color-blue {
+	background:#1d6bdb;
+}
+.font-large {
+	font-size:12px;
 	float:right;
+	position:absolute;
+	bottom:10px;
+	right:7px;
+}
+.font-small {
+	font-size:10px;
+	float:right;
+	position:absolute;
+	bottom:10px;
+	right:7px;
+}
+.menu ul li ul {
+	display:none;
+	position:absolute;
+	z-index:10;
+	top:82px;
+	right:0px;
+}
+.menu ul li:hover ul {
+	display:block;
+}
+.menu ul li ul li {
+	width:281px;
+	padding:3px 0px 0px 0px;
+	margin:0px;
+	font-size:14px;	
+	line-height:17px;
+	clear:both;
+}
+.menu ul li:hover ul li a {
+	padding:0px;
+	margin:0px;
+	background:#1d6bdb;
+	display:block;
+}
+/*different hover effect*/
+.menu ul li:hover.hover-red a {
+	background:#901818;
+	display:block;
+}
+.menu ul li.hover-red ul li:hover a {
+	background:#680E10;
+}
+
+.menu ul li:hover.hover-purple a {
+	background:purple;
+	display:block;
+}
+.menu ul li.hover-purple ul li:hover a {
+	background:green;
+}
+.menu ul li:hover.hover-yellow a {
+	background:yellow;
+	display:block;
+}
+.menu ul li.hover-yellow ul li:hover a {
+	background:green;
+}
+.menu ul li:hover.hover-light-yellow a {
+	background:#8DC915;
+	display:block;
+}
+.menu ul li.hover-light-yellow ul li:hover a {
+	background:green;
+}
+.menu ul li:hover.hover-cyan a {
+	background:#665959;
+	display:block;
+}
+.menu ul li.hover-cyan ul li:hover a {
+	background:#171515;
+}
+.menu ul li:hover.hover-blue a {
+	background:blue;
+	display:block;
+}
+.menu ul li.hover-blue ul li:hover a {
+	background:#0A18B9;
 }
