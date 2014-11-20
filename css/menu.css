@@ -68,20 +68,22 @@
 	z-index:10;
 	top:82px;
 	right:0px;
+	min-width:150px;
 }
 .menu ul li:hover ul {
 	display:block;
 }
 .menu ul li ul li {
-	width:281px;
-	padding:3px 0px 0px 0px;
+	white-space:nowrap;
+	padding-top:3px;
 	margin:0px;
 	font-size:14px;	
-	line-height:17px;
+	line-height:11px;
 	clear:both;
+	width:100%;
 }
 .menu ul li:hover ul li a {
-	padding:0px;
+	padding:3px;
 	margin:0px;
 	background:#1d6bdb;
 	display:block;
